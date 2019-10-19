@@ -1,0 +1,25 @@
+{
+  "name": "factorialfeature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jitgitbit/FactorialFeature.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jitgitbit/FactorialFeature/issues"
+  },
+  "homepage": "https://github.com/Jitgitbit/FactorialFeature#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
