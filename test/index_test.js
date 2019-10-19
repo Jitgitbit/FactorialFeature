@@ -9,5 +9,11 @@ describe('Calculate', () => {
       const actual = Calculate.factorial(inputNumber);
       assert.equal(expected, actual);
     });
+    it('testing if factorial(3) gives 6', ()=>{
+      const expected = 6;
+      const inputNumber = 3;
+      const actual = Calculate.factorial(inputNumber);
+      assert.equal(expected, actual);
+    });
   });
 });
