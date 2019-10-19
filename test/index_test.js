@@ -15,5 +15,8 @@ describe('Calculate', () => {
       const result = Calculate.factorial(inputNumber);
       assert.equal(result, expected);
     });
+    it("returns 1 when you pass in 0.", ()=>{
+      assert.equal(Calculate.factorial(0), 1);
+    });
   });
 });
