@@ -13,7 +13,7 @@ describe('Calculate', () => {
       const expected = 6;
       const inputNumber = 3;
       const actual = Calculate.factorial(inputNumber);
-      assert.equal(expected, actual);
+      assert.equal(actual, expected);
     });
   });
 });
